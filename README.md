@@ -1,7 +1,6 @@
 <img width="3840" height="2160" alt="image" src="https://github.com/user-attachments/assets/2de4cf12-2714-4b85-9bf5-967f7c12884b" />
 
 # STM32 桌面智能萌宠小狗（桌面桌宠项目笔记）
-⭐ Open-source STM32 smart desktop pet dog tuned for educational and interactive applications.
 
 ---
 
@@ -49,8 +48,6 @@
 | 电源 | 锂电池（3.7 V）×1／TP4056 充放电模块 |
 | 扩展图 | MCU 核心板库、3D 模型、PCB 文件打开链接可见:contentReference[oaicite:11]{index=11} |
 
-另外，可自行 3D 打印外壳并参考作者提供的模型进行优化封装。:contentReference[oaicite:12]{index=12}
-
 ---
 
 ## 四、软件架构示意图
@@ -78,7 +75,7 @@ Delay.c ── 精确延迟与滴答控制支持
 
 ---
 
-## 五、使用说明与编译方式 ✅
+## 五、使用说明与编译方式
 
 1. 使用 STM32CubeMX（或 CubeIDE）生成 HAL 工程核心配置（GPIO、TIM、USART）。  
 2. 将 `lib／Drivers` 模块放入对应源文件（servo/Face_Config/OLED/BlueTooth 等）。  
@@ -96,30 +93,6 @@ Delay.c ── 精确延迟与滴答控制支持
 - **可扩展模块**：添加触觉电机输出、摄像头识别（姿态/人脸）、语音合成（TTS）、触觉扩展（如 LRA）, 与导师方向形成研究级原型。  
 
 ---
-
-## 七、简历中项目描述建议模板
-
-```
-
-2025.06 | 桌面智能萌宠小狗系统（STM32 + 舵机 ×5
-
-* OLED 表情 + 蓝牙／语音双控）
-  • 实现立正、前进、后退、打招呼、跳跃、摇尾巴等 16 种动作策略，采用 PWM 驱动舵机，TIM2/TIM3 输出控制舵机与尾巴；
-  • OLED 显示 “快乐、睡觉、打招呼” 等表情，通过中断切换 Face\_Mode，实现跨模态视觉反馈；
-  • 串口中断逻辑：通过 Bluetooth（USART3）或语音模块（USART1）接收命令，控制动作／表情／LED 呼吸灯切换；
-  • 控制策略考虑供电波动与舵机纹波干扰，在动作函数中添加次数控制与延迟优化；系统稳定响应率高、交互可扩展。
-
-```
-
-如真实完成可量化准确率与延迟数据，也可写入该模板中，或链接 GitHub 仓库演示视频或 README 页面。
-
----
-
-## 八、参考资料与链接
-
-- 📖 原文博客（CSDN）：Sngels_wyh《STM32单片机智能桌面宠物》:contentReference[oaicite:14]{index=14}  
-- 🎥 教程视频：B 站“STM32 智能桌面宠物总教程（v1.1）”:contentReference[oaicite:15]{index=15}  
-- 🖥 额外 HAL + PWM 驱动桌宠文档：Huooer 的 HAL 库项目参考（代码结构简洁清晰）:contentReference[oaicite:16]{index=16}  
 
 许可证：**CC BY‑SA‑4.0，在保留署名与授权协议的前提下，可自由复制、修改与发布**。
 
