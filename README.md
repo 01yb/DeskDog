@@ -97,8 +97,3 @@ Delay.c ── 精确延迟与滴答控制支持
 许可证：**CC BY‑SA‑4.0，在保留署名与授权协议的前提下，可自由复制、修改与发布**。
 
 ---
-
-希望这份笔记可以帮助你在 GitHub 上快速搬运、展示该项目，也便于导师快速评估你的动手与交互设计能力，如需加入 GitHub 模板（action buttons / badges / 声明文件），欢迎随时告诉我！
-::contentReference[oaicite:17]{index=17}
-```
-
