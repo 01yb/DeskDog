@@ -1264,8 +1264,8 @@ void Face_Config(void);
 ## 小狗外壳
 
 这里是直接买的淘宝开模好的模型把硬件组装进去
-
-![3](https://github.com/01yb/DeskDog/blob/main/%E6%B7%98%E5%AE%9D%E5%9B%BE.png)
+![3](https://github.com/01yb/DeskDog/blob/main/%E8%A3%B8%E6%9C%BA.jpg)
+![4](https://github.com/01yb/DeskDog/blob/main/%E6%B7%98%E5%AE%9D%E5%9B%BE.png)
 
 
 
