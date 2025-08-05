@@ -10,7 +10,7 @@
 
 ![1](https://github.com/01yb/DeskDog/blob/main/%E6%BC%94%E7%A4%BA1.png)
 
-![](C:\Users\admin\Desktop\智能小狗\img\image-20250805113810143-1754365493280-5.png)
+![2](https://github.com/01yb/DeskDog/blob/main/%E6%BC%94%E7%A4%BA2.png)
 
 - STM32单片机是跟着UP主【铁头山羊】学习的。
 - OLED的使用看的是UP主【江协科技】老师的OLED教程，可进行自定义设置表情。
@@ -30,7 +30,7 @@
 
 ### 焊接图
 
-![v1.1电路板.png](C:\Users\admin\Desktop\智能小狗\img\74890faad95e4cab864fdefe0bfb031d.png)
+![v1.1电路板.png](https://github.com/01yb/DeskDog/blob/main/%E7%94%B5%E8%B7%AF%E6%9D%BF.png)
 
 ---
 
@@ -1264,7 +1264,7 @@ void Face_Config(void);
 
 这里是直接买的淘宝开模好的模型把硬件组装进去
 
-<img src="C:\Users\admin\Desktop\智能小狗\img\image-20250805101821822-1754364784831-1.png" alt="image-20250805101821822" style="zoom:50%;" />
+![3](https://github.com/01yb/DeskDog/blob/main/%E6%B7%98%E5%AE%9D%E5%9B%BE.png)
 
 
 
