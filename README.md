@@ -6,9 +6,13 @@
 
 基于stm32开发的桌面DIY智能小狗，可进行简单的与人交互功能，支持语言与蓝牙同时操控
 
-![image-20250804175627291](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20250804175627291.png)
+<img src="http://i0.hdslb.com/bfs/new_dyn/2c794d8ca1c7364653091009008be59e455041839.jpg" alt="img" style="zoom: 33%;" />
 
-![image-20250804175651899](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20250804175651899.png)
+<img src="http://i0.hdslb.com/bfs/new_dyn/cf893dfce44d5bddd5575e3c6d80e0a7455041839.jpg" alt="img" style="zoom: 33%;" />
+STM32单片机是跟着UP主【铁头山羊】学习的。
+OLED的使用看的是UP主【江协科技】老师的OLED教程，可进行自定义设置表情。
+嘉立创PCB画板跟着UP主【Expert电子实验室】学习的。
+语音模块用的是【机芯智能】的su-03t1，可进行自定义设置唤醒词命令词。
 
 ## 硬件
 
@@ -27,11 +31,11 @@
 
 ---
 
-## 代码
+## 功能代码
 
-注：代码采用的是标准库，同时也进行了模块封装、
+注：代码采用的是标准库，对各个模块进行了功能封装
 
-#### 主函数代码
+### 主函数代码
 
 主函数里的Action_Mode是全局变量，值是进串口中断更改的，主循环遍历这个值来切换动作模式
 
@@ -79,7 +83,7 @@ int main(void)
 }
 ```
 
-#### PWM模式
+### PWM模式
 
 由于一个计时器只能开启4个输出比较模式，对应四条腿，但我们还需要一个尾巴，所以只能再开启一个定时器了
 
@@ -202,7 +206,7 @@ void PWM_LED2(uint16_t Compare);
 #endif
 ```
 
-#### 舵机设置
+### 舵机设置
 
 为了统一角度，比如设置0度，那么所有舵机执行的方向朝向一致。所以舵机2和舵机4的Angle取补角
 
@@ -1185,7 +1189,7 @@ void BlueTooth_Init(void);
 #endif
 ```
 
-#### 表情代码函数
+### 表情代码函数
 
 OLED模块代码是用的江协老师的，OLED显示图片教程也是跟着这个老师学的，表情的图片可以从网上寻找自己DIY表情。
 
@@ -1253,4 +1257,10 @@ void Face_Config(void);
  
 #endif
 ```
+
+## 小狗外壳
+
+淘宝很多已经开模好的，可以自己开模也可以买现成的，差价大概15r左右
+
+<img src="C:\Users\admin\Desktop\STM32 桌面小狗.assets\image-20250805101821822.png" alt="image-20250805101821822" style="zoom:50%;" />
 
