@@ -9,10 +9,11 @@
 <img src="http://i0.hdslb.com/bfs/new_dyn/2c794d8ca1c7364653091009008be59e455041839.jpg" alt="img" style="zoom: 33%;" />
 
 <img src="http://i0.hdslb.com/bfs/new_dyn/cf893dfce44d5bddd5575e3c6d80e0a7455041839.jpg" alt="img" style="zoom: 33%;" />
-STM32单片机是跟着UP主【铁头山羊】学习的。
-OLED的使用看的是UP主【江协科技】老师的OLED教程，可进行自定义设置表情。
-嘉立创PCB画板跟着UP主【Expert电子实验室】学习的。
-语音模块用的是【机芯智能】的su-03t1，可进行自定义设置唤醒词命令词。
+
+- STM32单片机是跟着UP主【铁头山羊】学习的。
+- OLED的使用看的是UP主【江协科技】老师的OLED教程，可进行自定义设置表情。
+- 嘉立创PCB画板跟着UP主【Expert电子实验室】学习的。
+- 语音模块用的是【机芯智能】的su-03t1，可进行自定义设置唤醒词命令词。
 
 ## 硬件
 
@@ -27,7 +28,7 @@ OLED的使用看的是UP主【江协科技】老师的OLED教程，可进行自�
 
 ### 焊接图
 
-![v1.1电路板.png](https://image.lceda.cn/oshwhub/pullImage/74890faad95e4cab864fdefe0bfb031d.png)
+![v1.1电路板.png](C:\Users\admin\Desktop\STM32 桌面小狗.assets\74890faad95e4cab864fdefe0bfb031d.png)
 
 ---
 
@@ -1260,7 +1261,7 @@ void Face_Config(void);
 
 ## 小狗外壳
 
-淘宝很多已经开模好的，可以自己开模也可以买现成的，差价大概15r左右
+这里是直接买的淘宝开模好的模型把硬件组装进去
 
-<img src="C:\Users\admin\Desktop\STM32 桌面小狗.assets\image-20250805101821822.png" alt="image-20250805101821822" style="zoom:50%;" />
+<img src="C:\Users\admin\Desktop\STM32 桌面小狗.assets\image-20250805101821822-1754364784831-1.png" alt="image-20250805101821822" style="zoom:50%;" />
 
