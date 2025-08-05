@@ -8,7 +8,7 @@
 
 ## 效果图
 
-![](C:\Users\admin\Desktop\智能小狗\img\image-20250805113728504-1754365478852-2.png)
+![1](https://github.com/01yb/DeskDog/blob/main/%E6%BC%94%E7%A4%BA1.png)
 
 ![](C:\Users\admin\Desktop\智能小狗\img\image-20250805113810143-1754365493280-5.png)
 
